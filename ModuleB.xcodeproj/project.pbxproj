@@ -15,6 +15,7 @@
 		6C9192CA2244742400F19C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9192C92244742400F19C1D /* main.m */; };
 		6C9192D42244742400F19C1D /* ModuleBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9192D32244742400F19C1D /* ModuleBTests.m */; };
 		6C9192DF2244742400F19C1D /* ModuleBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9192DE2244742400F19C1D /* ModuleBUITests.m */; };
+		6C91943C224A31AB00F19C1D /* ModuleB_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C91943B224A31AB00F19C1D /* ModuleB_FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6C9192DA2244742400F19C1D /* ModuleBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9192DE2244742400F19C1D /* ModuleBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleBUITests.m; sourceTree = "<group>"; };
 		6C9192E02244742400F19C1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C91943A224A31AB00F19C1D /* ModuleB_FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleB_FirstViewController.h; sourceTree = "<group>"; };
+		6C91943B224A31AB00F19C1D /* ModuleB_FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleB_FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		6C9192B92244742300F19C1D /* ModuleB */ = {
 			isa = PBXGroup;
 			children = (
+				6C919439224A319D00F19C1D /* ModuleB */,
 				6C9192BA2244742300F19C1D /* AppDelegate.h */,
 				6C9192BB2244742300F19C1D /* AppDelegate.m */,
 				6C9192BD2244742300F19C1D /* ViewController.h */,
@@ -130,6 +134,15 @@
 				6C9192E02244742400F19C1D /* Info.plist */,
 			);
 			path = ModuleBUITests;
+			sourceTree = "<group>";
+		};
+		6C919439224A319D00F19C1D /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				6C91943A224A31AB00F19C1D /* ModuleB_FirstViewController.h */,
+				6C91943B224A31AB00F19C1D /* ModuleB_FirstViewController.m */,
+			);
+			path = ModuleB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				6C9192BF2244742300F19C1D /* ViewController.m in Sources */,
 				6C9192CA2244742400F19C1D /* main.m in Sources */,
+				6C91943C224A31AB00F19C1D /* ModuleB_FirstViewController.m in Sources */,
 				6C9192BC2244742300F19C1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
